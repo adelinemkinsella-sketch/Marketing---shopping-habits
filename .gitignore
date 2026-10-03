@@ -1,0 +1,43 @@
+# --- DATA & LARGE FILES ---
+# Ignore raw and processed datasets (GitHub blocks files over 100MB)
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.json
+*.parquet
+*.pkl
+*.pickle
+*.sqlite
+*.db
+
+# --- ENVIRONMENT & CREDENTIALS ---
+# Ignore virtual environments (folders containing installed packages)
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# Ignore secret credentials, passwords, and API keys
+.env
+secret*.txt
+credentials.json
+
+# --- TOOLS & CODE CHECKS ---
+# Ignore Jupyter Notebook automatic backups and checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- SYSTEM FILES ---
+# Ignore operating system clutter
+.DS_Store
+Thumbs.db
